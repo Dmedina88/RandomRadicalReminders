@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:key="@string/alarm"
+        android:summary="@string/Activate_alarm"
+        android:title="@string/Activate_alarm" />
+
+    <EditTextPreference
+        android:dialogTitle="@string/Message_Dialog"
+        android:key="@string/message_key"
+        android:summary="@string/Message_title"
+        android:title="@string/Message_title" />
+
+    <com.grayherring.randomradicalreminders.CustomUI.TimerPicker
+        android:defaultValue="00:00"
+        android:key="@string/start_time"
+        android:summary="@string/start_summary"
+        android:title="@string/start_title" />
+    <com.grayherring.randomradicalreminders.CustomUI.TimerPicker
+        android:defaultValue="00:00"
+        android:key="@string/end_time"
+        android:summary="Set end Range for Reminder"
+        android:title="Set End Range for Reminder" />
+    <!--
+        <MultiSelectListPreference
+            android:defaultValue="@array/weekdays_val"
+            android:dialogTitle="Select Days"
+            android:entries="@array/weekdays"
+            android:entryValues="@array/weekdays_val"
+            android:key="@string/day_key"
+            android:summary=""
+            android:title="Set Days" /> -->
+
+    <RingtonePreference
+        android:name="Ringtone Preference"
+        android:key="@string/reingtone_key"
+        android:ringtoneType="alarm"
+        android:summary="Select a ringtone"
+        android:title="Ringtone"
+
+        />
+
+    <CheckBoxPreference
+        android:key="@string/use_recording"
+        android:summary="Use Custom Recording"
+        android:title="Use Recording" />
+    <com.grayherring.randomradicalreminders.CustomUI.RecordingDialog
+        android:dialogTitle="Record Message"
+        android:key=""
+        android:summary="Record Message" />
+
+</PreferenceScreen>

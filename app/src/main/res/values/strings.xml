@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">"RRReminders"</string>
+
+    <string name="title_activity_main">Random Radical Reminders</string>
+    <string name="action_help">Help</string>
+
+
+    <string name="message_key">message</string>
+    <string name="alarm">alarm</string>
+    <string name="Activate_alarm">Activate alarm</string>
+    <string name="Message_title">Message</string>
+    <string name="Message_Dialog">Set Reminder Message</string>
+    <string name="start_time">start_time</string>
+    <string name="start_title">Set Start Range for Reminder</string>
+    <string name="start_summary">Set Start Range for Reminder</string>
+    <string name="end_time">end_time</string>
+    <string name="day_key">day_key</string>
+    <string name="use_recording">use_recording</string>
+    <string name="reingtone_key">ringtone_key</string>
+    <string name="title_activity_alarm">Alarm</string>
+    <string name="banner_id">ca-app-pub-4244935540543623/5152216396</string>
+
+    <string name="alarm_time_key">alarm_time_key</string>
+    <string name="alarm_start_key">alarm_start_key</string>
+    <string name="alarm_end_key">alarm_end_key</string>
+
+    <string name="help">Set a message and a range of times for the reminder to go off. If the start
+        time is after the end time, the reminder cycle will begin at the start time in one day and
+        finish at the end time in the following day. When the reminder goes off, you can set it to
+        trigger once more in that cycle or repeat in your next cycle. \n\nYou may record  your own
+        message to play as the alarm and play it if you check "Use Recording" \n  </string>
+
+</resources>
